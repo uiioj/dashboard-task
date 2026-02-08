@@ -13,24 +13,37 @@ function Sidebar() {
     <>
       {/* big dev */}
       <div
-        className=" w-[200px] h-screen bg-white shadow
+        className=" w-50 h-screen bg-white shadow
        text-center p-5 "
       >
         {/* dev for "Elzero" */}
         <div className="font-bold">Elzero</div>
 
-        <span className="font-bold flex justify-center">
-          ــــــــــــــــــــــــ
-        </span>
+        <div className="flex items-center justify-center gap-2">
+          <div className="flex items-center justify-center gap-2">
+            <div className="border-t border-black border w-8"></div>{" "}
+            <span className="text-black">●</span>
+            <div className="border-t border-black border w-8"></div>{" "}
+          </div>
+        </div>
         {/* div for "Index buttons" */}
-        <IndexButtons text="Dashboard" icon={<MdOutlineDashboard />} />
-        <IndexButtons text="Settings" icon={<IoMdSettings />} />
-        <IndexButtons text="Profile" icon={<IoPersonOutline />} />
-        <IndexButtons text="Projects" icon={<FaShareAlt />} />
-        <IndexButtons text="Courses" icon={<FaGraduationCap />} />
-        <IndexButtons text="Friends" icon={<BsPersonCircle />} />
-        <IndexButtons text="Files" icon={<FaRegFile />} />
-        <IndexButtons text="Plans" icon={<FaRegCreditCard />} />
+        <div className="mt-5 flex flex-col w-full">
+          <IndexButtons text="Dashboard" icon={<MdOutlineDashboard />} />
+
+          <IndexButtons text="Settings" icon={<IoMdSettings />} />
+
+          <IndexButtons text="Profile" icon={<IoPersonOutline />} />
+
+          <IndexButtons text="Projects" icon={<FaShareAlt />} />
+
+          <IndexButtons text="Courses" icon={<FaGraduationCap />} />
+
+          <IndexButtons text="Friends" icon={<BsPersonCircle />} />
+
+          <IndexButtons text="Files" icon={<FaRegFile />} />
+
+          <IndexButtons text="Plans" icon={<FaRegCreditCard />} />
+        </div>
       </div>
     </>
   );
