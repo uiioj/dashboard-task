@@ -7,12 +7,12 @@ function Searchbar() {
         <input
           type="search"
           placeholder="🔍 Type A Keyword"
-          className="border border-gray-300 rounded-md p-1 text-[10px]"
+          className="border border-gray-300 rounded-lg p-0.5 py-2 m-1 mx-3 text-[15px]"
         />
 
-        <div className="flex items-baseline gap-3">
-          <img src="src/images/bell.png" className="h-5" />
-          <img src="src/images/avatar.png" className="h-6" />
+        <div className="flex items-center gap-3">
+          <img src="src/images/bell.png" className="h-7" />
+          <img src="src/images/avatar.png" className="h-8" />
         </div>
       </div>
     </>

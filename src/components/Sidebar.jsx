@@ -13,17 +13,17 @@ function Sidebar() {
     <>
       {/* big dev */}
       <div
-        className=" w-50 h-screen bg-white shadow
+        className=" w-25 md:w-50  min-h-screen bg-white shadow-2xl
        text-center p-5 "
       >
         {/* dev for "Elzero" */}
-        <div className="font-bold">Elzero</div>
+        <div className="font-bold text-xl">Elzero</div>
 
         <div className="flex items-center justify-center gap-2">
           <div className="flex items-center justify-center gap-2">
-            <div className="border-t border-black border w-8"></div>{" "}
-            <span className="text-black">●</span>
-            <div className="border-t border-black border w-8"></div>{" "}
+            <div className="border-t border-black border w-5 md:w-8"></div>
+            <span className="text-black text-xl">●</span>
+            <div className="border-t border-black border w-5 md:w-8"></div>
           </div>
         </div>
         {/* div for "Index buttons" */}

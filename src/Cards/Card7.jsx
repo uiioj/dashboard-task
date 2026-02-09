@@ -1,3 +1,4 @@
+import CardLayout from "./CardLayout";
 function Card7() {
   return <></>;
 }
