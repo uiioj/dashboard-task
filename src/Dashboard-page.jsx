@@ -45,7 +45,7 @@ function Dashboard() {
                 <Card3 />
                 <Card4 />
                 <Card5 />
-                <Card5 />
+                <Card6 />
 
                 <Card4 />
                 <Card4 />
