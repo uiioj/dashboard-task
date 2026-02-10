@@ -14,7 +14,7 @@ function Card4() {
         <div className="grid grid-cols-1 md:grid-cols-2 mb-6 mx-3">
           {/**الأول */}
           <div className="border border-gray-300 rounded-xl flex flex-col items-center p-5 m-2">
-            <FaRegListAlt className="text-[#f59e0b]  text-3xl m-1" />
+            <FaRegListAlt className="text-[#f59e0b]  text-2xl m-1" />
             <div className="font-bold m-1 text-2xl">2500</div>
             <div className="text-[#9a9a9a] m-1 text-sm">Total</div>
           </div>

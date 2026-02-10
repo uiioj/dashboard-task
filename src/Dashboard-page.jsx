@@ -44,6 +44,11 @@ function Dashboard() {
                 <Card2 />
                 <Card3 />
                 <Card4 />
+                <Card5 />
+                <Card5 />
+
+                <Card4 />
+                <Card4 />
               </div>
             </div>
           </div>
