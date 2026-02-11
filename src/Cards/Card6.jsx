@@ -13,7 +13,7 @@ function Card6() {
             descrption="Record Python Create Exe Project"
             bgColor="white"
             box={
-              <button className="cursor-pointer hover:text-[#f44336]">
+              <button className="cursor-pointer hover:text-[#f44336] transition-colors duration-500">
                 <FaRegTrashCan />
               </button>
             }
@@ -27,7 +27,7 @@ function Card6() {
             descrption="Write Low Level vs High Level Languages"
             bgColor="white"
             box={
-              <button className="cursor-pointer hover:text-[#f44336]">
+              <button className="cursor-pointer hover:text-[#f44336] transition-colors duration-500">
                 <FaRegTrashCan />
               </button>
             }
@@ -41,7 +41,7 @@ function Card6() {
             descrption="Publish Academy Programming Project"
             bgColor="white"
             box={
-              <button className="cursor-pointer hover:text-[#f44336]">
+              <button className="cursor-pointer hover:text-[#f44336] transition-colors duration-500">
                 <FaRegTrashCan />
               </button>
             }
@@ -55,7 +55,7 @@ function Card6() {
             descrption="Attend The Project Business Analysis Meeting"
             bgColor="white"
             box={
-              <button className="cursor-pointer hover:text-[#f44336]">
+              <button className="cursor-pointer hover:text-[#fcc7c3] transition-colors duration-500">
                 <FaRegTrashCan />
               </button>
             }
@@ -70,7 +70,7 @@ function Card6() {
             descrption="Write Low Level vs High Level Languages"
             bgColor="white"
             box={
-              <button className="cursor-pointer hover:text-[#f44336]">
+              <button className="cursor-pointer hover:text-[#f44336] transition-colors duration-500">
                 <FaRegTrashCan />
               </button>
             }
