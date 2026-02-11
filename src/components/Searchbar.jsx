@@ -1,5 +1,3 @@
-import { FaRegBell } from "react-icons/fa";
-
 function Searchbar() {
   return (
     <>
