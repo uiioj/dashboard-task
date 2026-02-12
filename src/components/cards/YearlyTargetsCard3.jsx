@@ -1,5 +1,5 @@
 import CardLayout from "./CardLayout";
-import YearlyTarget from "../components/YearlyTarget";
+import YearlyTarget from "../YearlyTarget";
 
 function Card3() {
   return (

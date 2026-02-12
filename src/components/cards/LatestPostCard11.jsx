@@ -1,5 +1,5 @@
 import CardLayout from "./CardLayout";
-import avatar from "../images/avatar.png";
+import avatar from "../../images/avatar.png";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 

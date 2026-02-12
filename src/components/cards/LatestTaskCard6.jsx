@@ -1,5 +1,5 @@
 import CardLayout from "./CardLayout";
-import CardItem from "../components/CardItem";
+import CardItem from "../CardItem";
 import { FaRegTrashCan } from "react-icons/fa6";
 
 function Card6() {

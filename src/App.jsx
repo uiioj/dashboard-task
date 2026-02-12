@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Dashboard from "./Dashboard-page";
+import Dashboard from "./components/homePage";
 
 function App() {
   return (

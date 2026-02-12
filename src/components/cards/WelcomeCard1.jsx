@@ -3,8 +3,8 @@ import CardLayout from "./CardLayout";
 function Card1() {
   return (
     <>
-      <CardLayout title="Welcome" text="Elzero ">
-        <div className="bg-[#eeeeee] flex"></div>
+      <CardLayout title="Welcome" text="Elzero">
+        <div className="bg-[#f44336]">ddd</div>
       </CardLayout>
     </>
   );

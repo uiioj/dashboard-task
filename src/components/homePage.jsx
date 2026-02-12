@@ -1,18 +1,18 @@
-import Sidebar from "./components/Sidebar";
-import Searchbar from "./components/Searchbar";
-import Card1 from "./cards/Card1";
-import Card2 from "./cards/Card2";
-import Card3 from "./cards/Card3";
-import Card4 from "./cards/Card4";
-import Card5 from "./cards/Card5";
-import Card6 from "./cards/Card6";
-import Card7 from "./cards/Card7";
-import Card8 from "./cards/Card8";
-import Card9 from "./cards/Card9";
-import Card10 from "./cards/Card10";
-import Card11 from "./cards/Card11";
-import Card12 from "./cards/Card12";
-import Card13 from "./cards/Card13";
+import Sidebar from "./Sidebar";
+import Searchbar from "./Searchbar";
+import Card1 from "./cards/WelcomeCard1";
+import Card2 from "./cards/QuickDraftCard2";
+import Card3 from "./cards/YearlyTargetsCard3";
+import Card4 from "./cards/YearlyTargetsCard4";
+import Card5 from "./cards/LatestNewsCard5";
+import Card6 from "./cards/LatestTaskCard6";
+import Card7 from "./cards/TopSearchItemsCard7";
+import Card8 from "./cards/LatestUploadsCard8";
+import Card9 from "./cards/LastProjectProgressCard9";
+import Card10 from "./cards/RemindersCard10";
+import Card11 from "./cards/LatestPostCard11";
+import Card12 from "./cards/SocialMediaStatsCard12";
+import Card13 from "./cards/ProjectsCard13";
 
 function Dashboard() {
   return (

@@ -69,7 +69,7 @@ function Card12() {
               rounded-lg px-3 py-1 mx-3 my-2
               cursor-pointer"
             >
-              Subscribe
+              Follow
             </button>
           </div>
         </div>

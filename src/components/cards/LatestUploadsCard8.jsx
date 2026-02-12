@@ -1,5 +1,5 @@
 import CardLayout from "./CardLayout";
-import CardItem from "../components/CardItem";
+import CardItem from "../CardItem";
 
 function Card8() {
   return (
