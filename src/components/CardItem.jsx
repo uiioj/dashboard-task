@@ -2,7 +2,7 @@ function CardItem({ image, title, descrption, box, bgColor, textStyle = "" }) {
   return (
     <>
       <div className="">
-        <div className="flex justify-between mx-1 my-4">
+        <div className="flex justify-between mx-1 my-2">
           <img src={image} className="h-13 px-4 rounded " />
 
           <div className="text-black flex flex-col flex-1 justify-center   ">

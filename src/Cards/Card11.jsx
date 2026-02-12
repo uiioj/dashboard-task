@@ -7,7 +7,7 @@ function Card11() {
   return (
     <>
       <CardLayout title="Latest Post">
-        <div>
+        <div className="flex justify-between flex-col">
           {/**div for avatar and name */}
           <div className="flex items-center gap-2 ">
             <img src={avatar} alt="avatar" className="h-10 w-10 mx-2" />
@@ -23,7 +23,7 @@ function Card11() {
           <div className="h-px bg-gray-200 m-4"></div>
 
           {/**div for paragragh */}
-          <div className="font-semibold m-4">
+          <div className="font-semibold m-4 ">
             You can fool all of the people some of the time, and some of the
             people all of the time, but you can't fool all of the people all of
             the time.

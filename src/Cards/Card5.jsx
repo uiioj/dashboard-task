@@ -13,7 +13,7 @@ function Card5() {
           box="3 Days Ago"
         ></CardItem>
 
-        <div className="h-px bg-gray-200 mx-4"></div>
+        <div className="h-px bg-gray-200 m-4"></div>
 
         {/**الثانية */}
         <CardItem
@@ -23,7 +23,7 @@ function Card5() {
           box="5 Days Ago"
         ></CardItem>
 
-        <div className="h-px bg-gray-200 mx-4"></div>
+        <div className="h-px bg-gray-200 m-4"></div>
 
         {/**الثالثة */}
         <CardItem
@@ -33,7 +33,7 @@ function Card5() {
           box="7 Days Ago"
         ></CardItem>
 
-        <div className="h-px bg-gray-200 mx-4"></div>
+        <div className="h-px bg-gray-200 m-4"></div>
 
         {/**الرابعة */}
         <CardItem
