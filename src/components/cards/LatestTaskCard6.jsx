@@ -2,7 +2,7 @@ import CardLayout from "./CardLayout";
 import CardItem from "../CardItem";
 import { FaRegTrashCan } from "react-icons/fa6";
 
-function Card6() {
+function LatestTaskCard6() {
   return (
     <>
       <CardLayout title="Latest Task" className="">
@@ -81,4 +81,4 @@ function Card6() {
   );
 }
 
-export default Card6;
+export default LatestTaskCard6;

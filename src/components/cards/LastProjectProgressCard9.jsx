@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import { FaCircle } from "react-icons/fa";
 
-function Card9() {
+function LastProjectProgressCard9() {
   return (
     <>
       <CardLayout title="Last Project Progress">
@@ -81,4 +81,4 @@ function Card9() {
   );
 }
 
-export default Card9;
+export default LastProjectProgressCard9;

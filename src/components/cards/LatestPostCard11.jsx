@@ -3,7 +3,7 @@ import avatar from "../../images/avatar.png";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 
-function Card11() {
+function LatestPostCard11() {
   return (
     <>
       <CardLayout title="Latest Post">
@@ -50,4 +50,4 @@ function Card11() {
   );
 }
 
-export default Card11;
+export default LatestPostCard11;

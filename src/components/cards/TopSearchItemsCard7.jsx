@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import CardItem from "../CardItem";
 
-function Card7() {
+function TopSearchItemsCard7() {
   return (
     <>
       <CardLayout title="Top Search Items">
@@ -28,4 +28,4 @@ function Card7() {
   );
 }
 
-export default Card7;
+export default TopSearchItemsCard7;

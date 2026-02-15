@@ -4,7 +4,7 @@ import { BiLoaderCircle } from "react-icons/bi";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { RiChatDeleteLine } from "react-icons/ri";
 
-function Card4() {
+function YearlyTargetsCard4() {
   return (
     <>
       <CardLayout
@@ -46,4 +46,4 @@ function Card4() {
   );
 }
 
-export default Card4;
+export default YearlyTargetsCard4;

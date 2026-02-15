@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
 
-function Card12() {
+function SocialMediaStatsCard12() {
   return (
     <>
       <CardLayout title="Social Media Stats">
@@ -78,4 +78,4 @@ function Card12() {
   );
 }
 
-export default Card12;
+export default SocialMediaStatsCard12;

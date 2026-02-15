@@ -1,10 +1,9 @@
-import Header from "./components/Header";
-import Dashboard from "./components/homePage";
+import HomePage2 from "./components/HomePage2";
 
 function App() {
   return (
     <>
-      <Dashboard />
+      <HomePage2 />
     </>
   );
 }

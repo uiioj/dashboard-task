@@ -1,6 +1,6 @@
 import CardLayout from "./CardLayout";
 
-function Card2() {
+function QuickDraftCard2() {
   return (
     <>
       <CardLayout title="Quick Draft" text="Write A Draft For Your Ideas ">
@@ -31,4 +31,4 @@ function Card2() {
   );
 }
 
-export default Card2;
+export default QuickDraftCard2;

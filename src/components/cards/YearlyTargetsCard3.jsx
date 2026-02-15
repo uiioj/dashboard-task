@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import YearlyTarget from "../YearlyTarget";
 
-function Card3() {
+function YearlyTargetsCard3() {
   return (
     <>
       <CardLayout title="Yearly Targets" text="Targets Of The Year">
@@ -45,4 +45,4 @@ function Card3() {
   );
 }
 
-export default Card3;
+export default YearlyTargetsCard3;

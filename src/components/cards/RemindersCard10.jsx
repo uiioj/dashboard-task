@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import { FaCircle } from "react-icons/fa";
 
-function Card10() {
+function RemindersCard10() {
   return (
     <>
       <CardLayout title="Reminders">
@@ -63,4 +63,4 @@ function Card10() {
   );
 }
 
-export default Card10;
+export default RemindersCard10;

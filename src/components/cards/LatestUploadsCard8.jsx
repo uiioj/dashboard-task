@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import CardItem from "../CardItem";
 
-function Card8() {
+function LatestUploadsCard8() {
   return (
     <>
       <CardLayout title="Latest Uploads">
@@ -67,4 +67,4 @@ function Card8() {
   );
 }
 
-export default Card8;
+export default LatestUploadsCard8;

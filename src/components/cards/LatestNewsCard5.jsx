@@ -1,7 +1,7 @@
 import CardLayout from "./CardLayout";
 import CardItem from "../CardItem";
 
-function Card5() {
+function LatestNewsCard5() {
   return (
     <>
       <CardLayout title="Latest News">
@@ -47,4 +47,4 @@ function Card5() {
   );
 }
 
-export default Card5;
+export default LatestNewsCard5;

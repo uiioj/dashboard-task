@@ -1,20 +1,20 @@
 import Sidebar from "./Sidebar";
 import Searchbar from "./Searchbar";
-import Card1 from "./cards/WelcomeCard1";
-import Card2 from "./cards/QuickDraftCard2";
-import Card3 from "./cards/YearlyTargetsCard3";
-import Card4 from "./cards/YearlyTargetsCard4";
-import Card5 from "./cards/LatestNewsCard5";
-import Card6 from "./cards/LatestTaskCard6";
-import Card7 from "./cards/TopSearchItemsCard7";
-import Card8 from "./cards/LatestUploadsCard8";
-import Card9 from "./cards/LastProjectProgressCard9";
-import Card10 from "./cards/RemindersCard10";
-import Card11 from "./cards/LatestPostCard11";
-import Card12 from "./cards/SocialMediaStatsCard12";
-import Card13 from "./cards/ProjectsCard13";
+import WelcomeCard1 from "./cards/WelcomeCard1";
+import QuickDraftCard2 from "./cards/QuickDraftCard2";
+import YearlyTargetsCard3 from "./cards/YearlyTargetsCard3";
+import YearlyTargetsCard4 from "./cards/YearlyTargetsCard4";
+import LatestNewsCard5 from "./cards/LatestNewsCard5";
+import LatestTaskCard6 from "./cards/LatestTaskCard6";
+import TopSearchItemsCard7 from "./cards/TopSearchItemsCard7";
+import LatestUploadsCard8 from "./cards/LatestUploadsCard8";
+import LastProjectProgressCard9 from "./cards/LastProjectProgressCard9";
+import RemindersCard10 from "./cards/RemindersCard10";
+import LatestPostCard11 from "./cards/LatestPostCard11";
+import SocialMediaStatsCard12 from "./cards/SocialMediaStatsCard12";
+import ProjectsCard13 from "./cards/ProjectsCard13";
 
-function Dashboard() {
+function HomePage() {
   return (
     <>
       <div className="bg-[#f1f5f9] min-h-screen">
@@ -40,21 +40,21 @@ function Dashboard() {
               </div>
               {/**Cards div*/}
               <div className="grid grid-cols-1 md:grid-cols-2">
-                <Card2 />
-                <Card2 />
-                <Card3 />
-                <Card4 />
-                <Card5 />
-                <Card6 />
-                <Card7 />
-                <Card8 />
-                <Card9 />
-                <Card10 />
-                <Card11 />
-                <Card12 />
+                <WelcomeCard1 />
+                <QuickDraftCard2 />
+                <YearlyTargetsCard3 />
+                <YearlyTargetsCard4 />
+                <LatestNewsCard5 />
+                <LatestTaskCard6 />
+                <TopSearchItemsCard7 />
+                <LatestUploadsCard8 />
+                <LastProjectProgressCard9 />
+                <RemindersCard10 />
+                <LatestPostCard11 />
+                <SocialMediaStatsCard12 />
 
                 <div className="col-span-1 md:col-span-2">
-                  <Card13 />
+                  <ProjectsCard13 />
                 </div>
               </div>
             </div>
@@ -65,4 +65,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default HomePage;

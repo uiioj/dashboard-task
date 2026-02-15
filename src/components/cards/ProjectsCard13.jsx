@@ -6,7 +6,7 @@ import team_03 from "../../images/team-03.png";
 import team_04 from "../../images/team-04.png";
 import team_05 from "../../images/team-05.png";
 
-function Card13() {
+function ProjectsCard13() {
   return (
     <>
       <CardLayout title="Projects">
@@ -114,4 +114,4 @@ function Card13() {
   );
 }
 
-export default Card13;
+export default ProjectsCard13;
