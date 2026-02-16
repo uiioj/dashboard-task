@@ -5,7 +5,7 @@ function LastProjectProgressCard9() {
   return (
     <>
       <CardLayout title="Last Project Progress">
-        <div className="mx-3 mb-5 text-sm md:text-2xl">
+        <div className="mx-3 mb-5 text-sm  lg:text-lg">
           {/**اخلي البطاقة العاشرة نفس هذا */}
           <div className="flex flex-col">
             {/**الدائرة الزرقاء 1 */}
@@ -54,11 +54,11 @@ function LastProjectProgressCard9() {
             {/**4 الدائرة الزرقاء */}
             <div className="flex items-center gap-4 font-semibold">
               <div
-                className="border-2 border-[#3994ff]
+                className="border-2 border-[#3994ff] 
             flex items-center justify-center
               w-6 h-6 md:w-8 md:h-8 rounded-full"
               >
-                <FaCircle className="text-[#3994ff] md:text-2xl" />
+                <FaCircle className="text-[#3994ff] md:text-2xl animate-pulse" />
               </div>
               <div>Test The Project</div>
             </div>

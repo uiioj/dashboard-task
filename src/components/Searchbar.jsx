@@ -1,4 +1,6 @@
 import { IoMenu } from "react-icons/io5";
+import bell from "../images/bell.png";
+import avatar from "../images/avatar.png";
 
 function Searchbar() {
   return (
@@ -13,8 +15,8 @@ function Searchbar() {
         />
 
         <div className="flex items-center gap-3">
-          <img src="src/images/bell.png" className="h-7" />
-          <img src="src/images/avatar.png" className="h-8" />
+          <img src={bell} className="h-7" />
+          <img src={avatar} className="h-8" />
         </div>
       </div>
     </>

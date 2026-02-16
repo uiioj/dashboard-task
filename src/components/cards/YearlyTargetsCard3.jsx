@@ -1,5 +1,8 @@
 import CardLayout from "./CardLayout";
 import YearlyTarget from "../YearlyTarget";
+import projects from "../../images/Projects.png";
+import money from "../../images/Money.png";
+import team from "../../images/Team.png";
 
 function YearlyTargetsCard3() {
   return (
@@ -8,7 +11,7 @@ function YearlyTargetsCard3() {
         <div className="flex flex-col">
           {/**Money */}
           <YearlyTarget
-            image="src/images/Money.png"
+            image={money}
             title="Money"
             amount="$20.000"
             bgColor="#cbe1fd"
@@ -19,7 +22,7 @@ function YearlyTargetsCard3() {
 
           {/**Projects */}
           <YearlyTarget
-            image="src/images/Projects.png"
+            image={projects}
             title="Projects"
             amount="24"
             bgColor="#fceccf"
@@ -31,7 +34,7 @@ function YearlyTargetsCard3() {
           {/**Team */}
 
           <YearlyTarget
-            image="src/images/Team.png"
+            image={team}
             title="Team"
             amount="12"
             bgColor="#d5f2e0"

@@ -50,7 +50,9 @@ function SocialMediaStatsCard12() {
 
             <button
               className="bg-[#ff0000] hover:bg-[#ff0000d7] text-white text-xs md:text-sm lg:text-lg
-              rounded-lg px-3 py-1 mx-3 my-2
+              rounded-lg
+              
+               px-3 py-1 mx-3 my-2  
               cursor-pointer"
             >
               Subscribe

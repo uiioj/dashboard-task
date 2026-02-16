@@ -5,7 +5,7 @@ function RemindersCard10() {
   return (
     <>
       <CardLayout title="Reminders">
-        <div className="mx-3 mb-5 text-sm md:text-lg">
+        <div className="mx-3 mb-5 text-sm lg:text-lg">
           {/**الأول */}
           <div className="flex items-center mb-4">
             <FaCircle className="text-[#3994ff] text-lg" />
