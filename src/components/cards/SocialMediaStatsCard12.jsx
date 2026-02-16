@@ -8,7 +8,7 @@ function SocialMediaStatsCard12() {
   return (
     <>
       <CardLayout title="Social Media Stats">
-        <div className="mx-4 mb-6 gap-4 flex justify-between flex-col">
+        <div className="mx-4 mb-6 gap-4 flex justify-between flex-col text-sm lg:text-lg">
           {/**تويتر */}
           <div className="bg-[#d2ecfc] flex justify-between">
             <div className="flex items-center gap-2 text-[#1da1f2]">
@@ -17,7 +17,7 @@ function SocialMediaStatsCard12() {
             </div>
 
             <button
-              className="bg-[#1da1f2] hover:bg-[#1da0f2ea] text-white text-sm
+              className="bg-[#1da1f2] hover:bg-[#1da0f2ea] text-white text-xs md:text-sm lg:text-lg
               rounded-lg px-3 py-1 mx-3 my-2
               cursor-pointer"
             >
@@ -33,7 +33,7 @@ function SocialMediaStatsCard12() {
             </div>
 
             <button
-              className="bg-[#1877f2] hover:bg-[#1876f2e8] text-white text-sm
+              className="bg-[#1877f2] hover:bg-[#1876f2e8] text-white text-xs md:text-sm lg:text-lg
               rounded-lg px-3 py-1 mx-3 my-2
               cursor-pointer"
             >
@@ -49,7 +49,7 @@ function SocialMediaStatsCard12() {
             </div>
 
             <button
-              className="bg-[#ff0000] hover:bg-[#ff0000d7] text-white text-sm
+              className="bg-[#ff0000] hover:bg-[#ff0000d7] text-white text-xs md:text-sm lg:text-lg
               rounded-lg px-3 py-1 mx-3 my-2
               cursor-pointer"
             >
@@ -65,7 +65,7 @@ function SocialMediaStatsCard12() {
             </div>
 
             <button
-              className="bg-[#0077b5] hover:bg-[#0076b5ea] text-white text-sm
+              className="bg-[#0077b5] hover:bg-[#0076b5ea] text-white text-xs md:text-sm lg:text-lg
               rounded-lg px-3 py-1 mx-3 my-2
               cursor-pointer"
             >

@@ -7,7 +7,7 @@ function IndexButtons({ text = "text", icon }) {
       flex items-center"
       >
         {icon}
-        <span className=" hidden md:inline-block">{text}</span>
+        <span>{text}</span>
       </button>
     </>
   );

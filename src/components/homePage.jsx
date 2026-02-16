@@ -1,5 +1,4 @@
-import Sidebar from "./Sidebar";
-import Searchbar from "./Searchbar";
+import Layout from "./Layout";
 import WelcomeCard1 from "./cards/WelcomeCard1";
 import QuickDraftCard2 from "./cards/QuickDraftCard2";
 import YearlyTargetsCard3 from "./cards/YearlyTargetsCard3";
@@ -17,50 +16,41 @@ import ProjectsCard13 from "./cards/ProjectsCard13";
 function HomePage() {
   return (
     <>
-      <div className="bg-[#f1f5f9] min-h-screen">
-        <div className="flex">
-          <Sidebar />
+      <Layout>
+        {/**بقية الصفحة  */}
+        <div>
+          {/**العنوان */}
+          <div className="flex-col m-5">
+            <h1 className="font-semibold text-4xl ">Dashboard</h1>
+            {/**الخط اللي تحته*/}
+            <div className="w-35 bg-white rounded-full h-0.5 my-3">
+              <div
+                className="bg-black h-0.5 rounded-full "
+                style={{ width: "30%" }}
+              ></div>
+            </div>
+          </div>
+          {/**Cards div*/}
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <WelcomeCard1 />
+            <QuickDraftCard2 />
+            <YearlyTargetsCard3 />
+            <YearlyTargetsCard4 />
+            <LatestNewsCard5 />
+            <LatestTaskCard6 />
+            <TopSearchItemsCard7 />
+            <LatestUploadsCard8 />
+            <LastProjectProgressCard9 />
+            <RemindersCard10 />
+            <LatestPostCard11 />
+            <SocialMediaStatsCard12 />
 
-          {/**div حاطة فيه بار البحث وبقية الصفحة عشان ماينزلوا تحت السايد بار */}
-          <div className="flex-1">
-            <Searchbar />
-
-            {/**بقية الصفحة  */}
-            <div>
-              {/**العنوان */}
-              <div className="flex-col m-5">
-                <h1 className="font-semibold text-4xl ">Dashboard</h1>
-                {/**الخط اللي تحته*/}
-                <div className="w-35 bg-white rounded-full h-0.5 my-3">
-                  <div
-                    className="bg-black h-0.5 rounded-full "
-                    style={{ width: "30%" }}
-                  ></div>
-                </div>
-              </div>
-              {/**Cards div*/}
-              <div className="grid grid-cols-1 md:grid-cols-2">
-                <WelcomeCard1 />
-                <QuickDraftCard2 />
-                <YearlyTargetsCard3 />
-                <YearlyTargetsCard4 />
-                <LatestNewsCard5 />
-                <LatestTaskCard6 />
-                <TopSearchItemsCard7 />
-                <LatestUploadsCard8 />
-                <LastProjectProgressCard9 />
-                <RemindersCard10 />
-                <LatestPostCard11 />
-                <SocialMediaStatsCard12 />
-
-                <div className="col-span-1 md:col-span-2">
-                  <ProjectsCard13 />
-                </div>
-              </div>
+            <div className="col-span-1 md:col-span-2">
+              <ProjectsCard13 />
             </div>
           </div>
         </div>
-      </div>
+      </Layout>
     </>
   );
 }

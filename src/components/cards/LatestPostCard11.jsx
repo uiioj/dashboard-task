@@ -23,7 +23,7 @@ function LatestPostCard11() {
           <div className="h-px bg-gray-200 m-4"></div>
 
           {/**div for paragragh */}
-          <div className="font-semibold m-4 ">
+          <div className="font-semibold m-4 text-center lg:text-left">
             You can fool all of the people some of the time, and some of the
             people all of the time, but you can't fool all of the people all of
             the time.

@@ -6,8 +6,12 @@ function TopSearchItemsCard7() {
     <>
       <CardLayout title="Top Search Items">
         <div className=" flex justify-between">
-          <div className="text-[#adaeaf] mx-9">Keyword</div>
-          <div className="text-[#adaeaf] mx-4 ">Search Count </div>
+          <div className="text-[#adaeaf] mx-9 text-xs md:text-sm lg:text-lg">
+            Keyword
+          </div>
+          <div className="text-[#adaeaf] mx-4 text-xs md:text-sm lg:text-lg">
+            SearchCount
+          </div>
         </div>
         <CardItem
           title="Programming"

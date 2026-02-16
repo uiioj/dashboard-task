@@ -1,7 +1,11 @@
+import { IoMenu } from "react-icons/io5";
+
 function Searchbar() {
   return (
     <>
       <div className="bg-white w-full p-2 flex justify-between">
+        <IoMenu className="md:hidden" />
+
         <input
           type="search"
           placeholder="🔍 Type A Keyword"
