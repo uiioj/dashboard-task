@@ -1,6 +1,7 @@
 function CardLayout({ title, text, children }) {
   return (
     <>
+      {/**comentttttttttt */}
       <div className="bg-white rounded-2xl flex flex-col m-5">
         {/**عنوان الكارد والنص اللي تحت */}
         <h1 className="p-2 m-2 font-bold text-2xl">
