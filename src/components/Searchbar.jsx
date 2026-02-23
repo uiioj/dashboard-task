@@ -2,11 +2,11 @@ import { IoMenu } from "react-icons/io5";
 import bell from "../images/bell.png";
 import avatar from "../images/avatar.png";
 
-function Searchbar() {
+function Searchbar({ toggleSidebar }) {
   return (
     <>
       <div className="bg-white w-full p-2 flex justify-between">
-        <IoMenu className="md:hidden" />
+        <IoMenu className="md:hidden cursor-pointer" onClick={toggleSidebar} />
 
         <input
           type="search"

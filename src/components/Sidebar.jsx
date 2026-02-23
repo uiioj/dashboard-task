@@ -10,9 +10,8 @@ import { FaRegCreditCard } from "react-icons/fa6";
 
 import { IoMenu } from "react-icons/io5";
 
-import { useState } from "react";
-
-function Sidebar() {
+function Sidebar({ isSidebarOpen, toggleSidebar }) {
+  const sidebarText = isSidebarOpen ? "sidebar is open" : null;
   {
     /**--------------------------------------------------------------------------------- */
   }
@@ -20,12 +19,17 @@ function Sidebar() {
     <>
       {/* big dev */}
       <div
-        className="w-50  min-h-full bg-white shadow-2xl
-       text-center md:p-5 z-50 md:relative fixed"
+        className={`  bg-white shadow-2xl
+       text-center md:p-5 z-50 md:relative fixed min-h-full ${
+         isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+       }`}
       >
         {/* dev for "Elzero" */}
         <div className="font-bold text-sm flex items-center md:text-2xl md:justify-center gap-2 p-2">
-          <IoMenu className="text-xl md:hidden" />
+          <IoMenu
+            className="text-xl md:hidden cursor-pointer"
+            onClick={toggleSidebar}
+          />
           Elzero
         </div>
 
