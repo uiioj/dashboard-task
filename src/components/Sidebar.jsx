@@ -11,7 +11,6 @@ import { FaRegCreditCard } from "react-icons/fa6";
 import { IoMenu } from "react-icons/io5";
 
 function Sidebar({ isSidebarOpen, toggleSidebar }) {
-  const sidebarText = isSidebarOpen ? "sidebar is open" : null;
   {
     /**--------------------------------------------------------------------------------- */
   }
