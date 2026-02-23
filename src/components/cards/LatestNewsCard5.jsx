@@ -1,10 +1,10 @@
 import CardLayout from "./CardLayout";
 import LatestNewsLayout from "../LatestNewsLayout";
 
-import news_01 from "../../images/news-01.png";
-import news_02 from "../../images/news-02.png";
-import news_03 from "../../images/news-03.png";
-import news_04 from "../../images/news-04.png";
+import { news_01 } from "../../images/news-01.png";
+import { news_02 } from "../../images/news-02.png";
+import { news_03 } from "../../images/news-03.png";
+import { news_04 } from "../../images/news-04.png";
 
 function LatestNewsCard5() {
   return (

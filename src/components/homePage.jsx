@@ -2,7 +2,7 @@ import Layout from "./Layout";
 import WelcomeCard1 from "./cards/WelcomeCard1";
 import QuickDraftCard2 from "./cards/QuickDraftCard2";
 import YearlyTargetsCard3 from "./cards/YearlyTargetsCard3";
-import YearlyTargetsCard4 from "./cards/YearlyTargetsCard4";
+import TicketsStatisticsCard4 from "./cards/TicketsStatisticsCard4";
 import LatestNewsCard5 from "./cards/LatestNewsCard5";
 import LatestTaskCard6 from "./cards/LatestTaskCard6";
 import TopSearchItemsCard7 from "./cards/TopSearchItemsCard7";
@@ -35,7 +35,7 @@ function HomePage() {
             <WelcomeCard1 />
             <QuickDraftCard2 />
             <YearlyTargetsCard3 />
-            <YearlyTargetsCard4 />
+            <TicketsStatisticsCard4 />
             <LatestNewsCard5 />
             <LatestTaskCard6 />
             <TopSearchItemsCard7 />

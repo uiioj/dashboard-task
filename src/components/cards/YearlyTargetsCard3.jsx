@@ -1,8 +1,8 @@
 import CardLayout from "./CardLayout";
 import YearlyTarget from "../YearlyTarget";
-import projects from "../../images/Projects.png";
-import money from "../../images/Money.png";
-import team from "../../images/Team.png";
+import { projects } from "../../images/Projects.png";
+import { money } from "../../images/Money.png";
+import { team } from "../../images/Team.png";
 
 function YearlyTargetsCard3() {
   return (

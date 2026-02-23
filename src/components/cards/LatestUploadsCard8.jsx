@@ -1,12 +1,12 @@
 import CardLayout from "./CardLayout";
 import CardItem from "../CardItem";
 
-import pdf from "../../images/pdf.svg";
-import avi from "../../images/avi.svg";
-import psd from "../../images/psd.svg";
-import zip from "../../images/zip.svg";
-import dll from "../../images/dll.svg";
-import eps from "../../images/eps.svg";
+import { pdf } from "../../images/pdf.svg";
+import { avi } from "../../images/avi.svg";
+import { psd } from "../../images/psd.svg";
+import { zip } from "../../images/zip.svg";
+import { dll } from "../../images/dll.svg";
+import { eps } from "../../images/eps.svg";
 
 function LatestUploadsCard8() {
   return (

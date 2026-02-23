@@ -1,6 +1,6 @@
 import { IoMenu } from "react-icons/io5";
-import bell from "../images/bell.png";
-import avatar from "../images/avatar.png";
+import { bell } from "../images/bell.png";
+import { avatar } from "../images/avatar.png";
 
 function Searchbar({ toggleSidebar }) {
   return (
